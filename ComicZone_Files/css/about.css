@@ -1,0 +1,47 @@
+.about{
+	border-bottom: 1px solid #555555;
+}
+
+.creators{
+	float: left;
+	width: 45%;
+	padding: 5px;
+}
+
+.contact{
+	padding-right: 10px;
+}
+
+.enthusiasts{
+	float: right;
+	width: 45%;
+	padding: 5px;
+}
+
+.terms h3{
+	/*text-align: center;*/
+	font-family: 'Arial', serif;	
+	font-size: 14pt;
+	color: #9a9a9a;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	padding-bottom: 0px;
+	
+}
+
+.terms p{
+	/*text-align: center;*/
+	font-family: 'Arial', serif;	
+	font-size: 12pt;
+	color: #c8c8c8;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+.terms a{
+	color: #0188fa;
+}
+
+.terms a:hover{
+	color: red;
+}

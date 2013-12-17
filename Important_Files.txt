@@ -1,0 +1,15 @@
+Access URL
+
+http://wagle.dlinkddns.com/index.php/cz_main_controller
+
+
+File Locations
+
+content
+images
+css
+js
+
+application/controllers
+application/models
+application/views

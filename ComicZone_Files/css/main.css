@@ -1,0 +1,749 @@
+/* Info Area
+
+<div class="clearfix"></div>
+
+*/
+
+/*-- Header & Body bg & global Styles --*/
+
+.clearfix{
+	clear: both;
+}
+
+
+body{
+	/*max-width: 960px;*/
+	background-color: #222222 ;
+	overflow: visible;
+	margin: 0px auto;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: #24a321;
+}
+
+/*-------------------------   Header css   -------------------------*/
+
+header{
+	background-color: #000000;
+	width: 100%;
+	height: 40px;
+	margin: 0px 0px 20px 0px;
+	overflow: hidden;
+	border-bottom: 1px solid #555555;
+}
+
+
+#head_div{
+	max-width: 960px;
+	overflow: hidden;
+	margin: 0px auto;
+	height: 40px;
+}
+
+
+#logo{
+	font-family: 'IM Fell DW Pica SC', serif;	
+	font-size: 24pt;
+	color: #24a321;
+	margin: 0px;
+	padding-top: 3px;
+	width: 41%;
+	float: left;
+}
+
+#logo_img{
+	margin: 0px;
+	width: 41%;
+	float: left;
+}
+
+#main_nav_div{
+	width: 474px;
+	height: 40px;
+	margin-top: 1px;
+	overflow: hidden;
+	background-image: url(../imgs/main_nav_bg.png);
+	float: left;
+}
+
+
+#main_nav{
+	padding-left: 12px;
+	padding-top: 8px;
+	margin: 0px;
+	overflow: hidden;
+	float: left;
+}
+
+
+#main_nav li{
+	overflow: hidden;
+	text-align: center;
+	float: left;
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0px;
+}
+
+
+#main_nav li a{
+	/*font-family: 'Franklin Gothic Mediam', serif;*/
+	font-size: 18pt;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+#main_nav li a:hover{
+	color: red;
+}
+
+#main_nav li a:active{
+	color: #24a321;
+}
+
+.main_not_current{
+	color: #a8a8a7;
+}
+
+.main_current{
+	color: #24a321;
+}
+
+#login_button_div{
+	float: right;
+	padding-top: 8px;
+}
+
+#login_button_div a{
+	text-decoration: none;
+}
+
+#login_button_div a:hover{
+	color: #000000;
+}
+
+
+/*----------------------   Footer css   -----------------------*/
+
+
+footer{
+	width: 960px;
+	height: 30px;
+	border-top: 1px solid #555555;
+	margin: 20px auto;
+}
+
+footer a{
+	font-family: 'Bell MT', serif;	
+	font-size: 14pt;
+	color: #c8c8c8;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 13px 0px 13px;
+	float: left;
+}
+
+#left_footer_link{
+	padding: 0px 13px 0px 0px;
+}
+
+#mid_footer_link{
+	border-left: 2px solid #555555;
+	border-right: 2px solid #555555;
+}
+
+footer p{
+	font-family: 'Bell MT', serif;
+	font-size: 14pt;
+	color: #555555;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	float: right;
+}
+
+/*-----------------------   Body css   -----------------------*/
+
+h2{
+	color: white;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li a{
+	color: white;
+}
+
+.body_content{
+	max-width: 960px;
+	padding: 0px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*----  Comic Title Section  ----*/
+
+.comic_title{
+	margin-bottom: 15px;
+}
+
+
+/*----  Main Content Area  ----*/
+
+#left_content_area{
+	width: 71.458%;
+	margin: 0px 30px 0px 0px;
+	padding: 0px;
+	overflow: hidden;
+	float: left;
+}
+
+
+/*----  Content  ----*/
+
+.main_content{
+	margin-bottom: 30px;
+}
+
+
+/*----  tab nav  ----*/
+	
+.tab_area{
+
+}
+
+.tab_div{
+	height: 40px;
+	margin-bottom: 2px;
+	position: relative;
+	left: -2px;
+}
+
+.tabs { 
+	padding: 0px;
+	margin: 0px; 
+	list-style: none;
+	overflow: hidden;
+	float: left;
+}
+    
+.tabs li {
+	background-image: url(../imgs/tab.png);
+	height: 40px;
+	width: 116px; 
+	float: left;
+}
+    
+.tabs li a{ 
+	display: block; 
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 18px;
+	/*color: #f9f9f9;----> steals priority does not allow to set .current*/ 
+	text-align: center; 
+	text-decoration: none;
+	padding: 6px;
+	margin: 0px;  
+}
+
+.tabs li a:hover{
+	color: red;
+}
+
+.tabs li a:active{
+	color: #24a321;
+}
+
+.current{
+	background-image: url(../imgs/selected_tab.png);
+	color: #24a321;
+} 
+
+.not_current{
+	color: #f9f9f9;
+}
+
+
+/*----  tab specific  ----*/
+#t1{
+	position: relative;
+	z-index: 5;
+}
+
+#t2{
+	position: relative;
+	left: -6px;
+	z-index: 4;
+}
+
+#t3{
+	position: relative;
+	left: -12px;
+	z-index: 3;
+}
+
+#t4{
+	position: relative;
+	left: -18px;
+	z-index: 2;
+}
+
+
+/*----    ----*/ 
+.tabs li a:hover {   
+}
+  
+.tabs li a.active {     
+} 
+
+
+/*----  top buttons  ----*/
+
+#cash_buttons_top{
+	height: 40px;
+	width: 140px;
+	padding: 0px;
+	overflow: hidden;
+	float: right;
+}
+
+#top_yellow{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;	
+}
+
+#top_green{
+	margin-top: 10px;	
+}
+
+.donate{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px 10px;
+	background: -moz-linear-gradient(
+		top,
+		#ffa601 0%,
+		#e0dc01 50%,
+		#ffa601);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffa601),
+		color-stop(0.50, #e0dc01),
+		to(#ffa601));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+		
+	text-decoration: none;
+}
+
+.donate:hover{
+	color: #000000;
+}
+
+.purchase{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px 6px;
+	background: -moz-linear-gradient(
+		top,
+		#44dd02 0%,
+		#6afe71 50%,
+		#44dd02);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#44dd02),
+		color-stop(0.50, #6afe71),
+		to(#44dd02));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+		
+	text-decoration: none;
+}
+
+.purchase:hover{
+	color: #000000;
+}
+
+.content { 
+	color: #c8c8c8;      
+}
+
+.content h3{
+	color: #f2f2f2;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.content p{
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+.ul_div{
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.content ul li{
+	margin-right: 10px;
+	float: left;
+}
+
+.content ul li a{
+	text-decoration: none;
+}
+
+  
+#content_2{ 
+	display:none; 
+} 
+
+#content_3{ 
+	display:none; 
+}
+
+#content_4{ 
+	display:none; 
+}
+
+
+/*----  Comic Specific  ----*/
+	
+.bottom_comic_nav{
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+}
+
+#comic_nav{
+	position: relative;
+	left: 11px;
+	padding-top: 3px;
+	float: right;
+}
+
+#comic_nav img{
+	margin: 0px 8px 0px 8px;
+
+}
+
+#comic_nav span{
+	position: relative;
+	top: -3px;
+}
+
+#cash_buttons_bottom{
+	height: 26px;
+	width: 150px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	float: left;
+}
+
+#comic_nav a{
+	font-size: 16pt;
+	color: #a8a8a8;
+	margin: 0px 5px 0px 5px;
+	text-decoration: none;
+}
+
+#comic_nav a:hover{
+	color: red;
+}
+
+#bottom_yellow{
+	height: 26px;
+	margin: 3px 10px 0px 0px;
+	padding: 0px;
+	float: left;	
+}
+
+#bottom_green{
+	height: 26px;
+	margin: 3px 0px 0px 0px;
+	padding: 0px;	
+}
+
+
+/*----  Add Space  ----*/
+
+.ad_space{
+	margin-top: 20px;
+}
+
+
+/*----  Right Content  ----*/
+
+#right_content_area{
+	width: 25.208%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	float: right;
+}
+
+.more_link:hover{
+	color: red;
+}
+
+.more_link:active{
+	color: #24a321;
+}
+
+/*----  Search Css  ----*/
+
+#search_form{
+	height: 25px;
+	margin: 0px 0px 15px 0px;
+}
+
+#search_cont{
+	height: 26px;
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: url(../imgs/search_img.png) no-repeat;
+	float: left;
+}
+
+#search_field{
+	margin:  1px 0px 0px 1px;
+	width: 193px;
+	height: 16px;
+	background: transparent;
+}
+
+.css3button{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	padding: 3px 3px;
+	background: -moz-linear-gradient(
+		top,
+		#015367 0%,
+		#38b2ce 50%,
+		#015367);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#015367),
+		color-stop(0.50, #38b2ce),
+		to(#015367));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+		
+	float: right;
+}
+
+
+/*----  Follow Us  ----*/
+	
+#social h2{
+	font-family: 'Arial', serif;	
+	font-size: 18pt;
+	color: #f2f2f2;
+	margin: 0px 0px 0px 0px;
+	padding-top: 6px;
+	float: left;
+
+}
+
+#social_list{
+	padding: 0px;
+	margin: 0px 0px 20px 0px; 
+	float: right;
+}
+
+#social_list li{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px 2px 0px 2px;
+	float: left;
+}
+
+#social_list li{
+	display: block;
+}
+
+
+/*----  Event / Update  ----*/
+
+.update{
+	margin: 0px 0px 20px 0px;
+	overflow: hidden;
+}
+
+.title_section{
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	overflow: hidden;
+}
+
+.update h2{
+	font-family: 'Arial', serif;	
+	font-size: 16pt;
+	color: #dedddd;
+	margin: 0px 0px 0px 0px;
+	padding-top: 0px;
+	float: left;
+}
+
+.update h3{
+	font-family: 'Arial', serif;	
+	font-size: 12pt;
+	color: #9a9a9a;
+	margin: 8px 0px 0px 0px;
+	padding: 0px;
+	float: right;
+}
+
+.update p{
+	font-family: 'Arial', serif;	
+	font-size: 12pt;
+	color: #c8c8c8;
+	margin: 0px 0px 10px 0px;
+	padding-top: 0px;
+}
+
+.update a{
+	font-family: 'Bell MT', serif;	
+	font-size: 12pt;
+	color: #0188fa;
+	margin: 0px;
+	padding-top: 0px;
+	float: right;
+}
+
+/*----  other right content  ----*/
+
+.img_lnks{
+}
+
+.img_lnks img{
+	margin-top: 10px;
+}
+
+
+/*---- contact form -----*/
+
+.contact_form{
+
+	color: #9a9a9a;
+	width: 180px;
+}
+
+
+/*---- about ----*/
+
+.about{
+	border-bottom: 1px solid #555555;
+}
+
+.creators{
+	float: left;
+	width: 45%;
+	padding: 5px;
+}
+
+.contact{
+	padding-right: 10px;
+}
+
+.enthusiasts{
+	float: right;
+	width: 45%;
+	padding: 5px;
+}
+
+.terms h3{
+	/*text-align: center;*/
+	font-family: 'Arial', serif;	
+	font-size: 14pt;
+	color: #9a9a9a;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	padding-bottom: 0px;
+	
+}
+
+.terms p{
+	/*text-align: center;*/
+	font-family: 'Arial', serif;	
+	font-size: 12pt;
+	color: #c8c8c8;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+.terms a{
+	color: #0188fa;
+}
+
+.terms a:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+

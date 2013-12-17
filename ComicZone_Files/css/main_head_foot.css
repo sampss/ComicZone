@@ -1,0 +1,164 @@
+/*-- Header & Body bg & global Styles --*/
+
+.clearfix{
+	clear: both;
+}
+
+
+body{
+	/*max-width: 960px;*/
+	background-color: #222222 ;
+	overflow: visible;
+	margin: 0px auto;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: #24a321;
+}
+
+/*-------------------------   Header css   -------------------------*/
+
+header{
+	background-color: #000000;
+	width: 100%;
+	height: 40px;
+	margin: 0px 0px 20px 0px;
+	overflow: hidden;
+	border-bottom: 1px solid #555555;
+}
+
+
+#head_div{
+	max-width: 960px;
+	overflow: hidden;
+	margin: 0px auto;
+	height: 40px;
+}
+
+
+#logo{
+	font-family: 'IM Fell DW Pica SC', serif;	
+	font-size: 24pt;
+	color: #24a321;
+	margin: 0px;
+	padding-top: 3px;
+	width: 41%;
+	float: left;
+}
+
+#logo_img{
+	margin: 0px;
+	width: 41%;
+	float: left;
+}
+
+#main_nav_div{
+	width: 474px;
+	height: 40px;
+	margin-top: 1px;
+	overflow: hidden;
+	background-image: url(../imgs/main_nav_bg.png);
+	float: left;
+}
+
+
+#main_nav{
+	padding-left: 12px;
+	padding-top: 8px;
+	margin: 0px;
+	overflow: hidden;
+	float: left;
+}
+
+
+#main_nav li{
+	overflow: hidden;
+	text-align: center;
+	float: left;
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0px;
+}
+
+
+#main_nav li a{
+	/*font-family: 'Franklin Gothic Mediam', serif;*/
+	font-size: 18pt;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+#main_nav li a:hover{
+	color: red;
+}
+
+#main_nav li a:active{
+	color: #24a321;
+}
+
+.main_not_current{
+	color: #a8a8a7;
+}
+
+.main_current{
+	color: #24a321;
+}
+
+#login_button_div{
+	float: right;
+	padding-top: 8px;
+}
+
+#login_button_div a{
+	text-decoration: none;
+}
+
+#login_button_div a:hover{
+	color: #000000;
+}
+
+
+/*----------------------   Footer css   -----------------------*/
+
+
+footer{
+	width: 960px;
+	height: 30px;
+	border-top: 1px solid #555555;
+	margin: 20px auto;
+}
+
+footer a{
+	font-family: 'Bell MT', serif;	
+	font-size: 14pt;
+	color: #c8c8c8;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 13px 0px 13px;
+	float: left;
+}
+
+#left_footer_link{
+	padding: 0px 13px 0px 0px;
+}
+
+#mid_footer_link{
+	border-left: 2px solid #555555;
+	border-right: 2px solid #555555;
+}
+
+footer p{
+	font-family: 'Bell MT', serif;
+	font-size: 14pt;
+	color: #555555;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	float: right;
+}
