@@ -4,7 +4,11 @@ This is the ComicZone project for Full Sail University.
 
 Access URL
 
-http://wagle.dlinkddns.com/index.php/cz_main_controller
+//http://wagle.dlinkddns.com/index.php/cz_main_controller
+
+Access URL changed to --
+
+http://wagle.no-ip.org:70/ci_cz/index.php/cz_main_controller
 
 
 File Locations
